@@ -1,0 +1,31 @@
+{
+  "name": "pyjs",
+  "version": "1.0.0",
+  "description": "Example Python + JS project",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "install": "lerna bootstrap",
+    "build": "lerna run build",
+    "prettier": "prettier --write \"**/*{.ts,.tsx,.js,.jsx,.css,.json,.md}\"",
+    "prettier:files": "prettier --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmetzl/pyjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmetzl/pyjs/issues"
+  },
+  "homepage": "https://github.com/tmetzl/pyjs#readme",
+  "dependencies": {
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "lerna": "^5.1.6"
+  }
+}
